@@ -40,7 +40,8 @@ The RSV-NET source files is standardized following these steps:
      - 0-4 years (`"0-4"`), 5-17 years (`"5-17"`),  18-49 years (`"18-49"`),
        50-64 years (`"50-64"`), 65+ years (`"65-130"`),  0-<6 months (`"0-0.49"`), 
        6-<12 months (`"0.5-0.99"`), 1-<2 years (`"1-1.99"`),  2-4 years (`"2-4"`),
-       18+ (Adults) (`"18-130"`) and overall (`"0-130"`)
+       18+ (Adults) (`"18-130"`),  "65-74 years" (`"65-74"`),
+       "75+ years" (`"75-130"`), and overall (`"0-130"`)
      
      - *Deprecated step as the overall value for these seasons is not included 
        in the data anymore* 
@@ -48,7 +49,7 @@ The RSV-NET source files is standardized following these steps:
        include children data, the overall age group has been removed from the 
        selection for the seasons: 2014-2015, 2015-2016, 2016-2017, 2017-2018. 
        For more information, please consult the
-       [RSV-NET Overview and Methods](https://www.cdc.gov/rsv/research/rsv-net/overview-methods.html)
+       [RSV-NET Overview and Methods](https://www.cdc.gov/rsv/php/surveillance/rsv-net.html)
        webpage.
        
    - Remove the seasonal summaries
@@ -61,7 +62,7 @@ The RSV-NET source files is standardized following these steps:
    -  rate * population size / 100000
    - For the 6 months age group, the population size for the corresponding year
    divided by 2 is used.
-   - The population data from the year 2022 are used for the year 2023
+   - The population data from the year 2022 are used for the year 2023 & 2024
    - The population size information comes from the US Census Bureau, please
    consult the [auxiliary-data/](./../auxiliary-data/) for more
    information
